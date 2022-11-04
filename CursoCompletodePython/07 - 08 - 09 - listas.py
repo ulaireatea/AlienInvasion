@@ -1,0 +1,27 @@
+carros = ['ferrari', 'fusca', 'civic']
+print(carros[2].title())
+print(carros[-2])
+print('Eu "gostaria" de ter uma ' + carros[0].title())
+carros[1] = 'mustang'
+print(carros)
+carros.append('BMW')
+print(carros)
+carros.insert(1, 'Jeep')
+print(carros)
+carros.extend('fusca')
+print(carros)
+del carros[1]
+print(carros)
+carros.pop()
+print(carros)
+carros.pop(2)
+print(carros)
+carros.remove('mustang')
+print(carros)
+carros.sort()
+print(carros)
+carros.sort(reverse=True)
+print(carros)
+print(sorted(carros)) #maneira de organizar sem criar um método permanente.
+carros.reverse()
+print(carros)
